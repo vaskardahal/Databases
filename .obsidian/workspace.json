@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Warehousing.md",
+                "file": "DataWarehousing.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Warehousing.md",
+                "file": "DataWarehousing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Warehousing.md",
+                "file": "DataWarehousing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Warehousing.md"
+                "file": "DataWarehousing.md"
               }
             }
           }
@@ -166,6 +166,6 @@
   "lastOpenFiles": [
     "4913",
     "Welcome.md",
-    "Data Warehousing.md"
+    "DataWarehousing.md"
   ]
 }
