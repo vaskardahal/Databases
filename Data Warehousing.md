@@ -1,3 +1,4 @@
+## Background
 ### Problems that Data Warehouse can solve
 1. When there is a lot of data, and we can't make much out of such overwhelming volume of data => Data Warehouse helps bring in only the data that is important and relevant for the purpose. 
 2. When the data must be sliced and diced and analyzed by all possible angle. 
@@ -17,4 +18,48 @@
 1. Understand the business users 
 2. Deliver high-quality, relevant, and accessible information
 3. Sustain the DW environment
-4. 
+
+## Dimensional Modeling
+Dimensional Modeling is a database design method optimized for data warehouse solutions. This is a popular technique because it address two important requirements: 
+1. Deliver data in an understandable format. 
+2. Deliver fast query performance. 
+### Elements of a Dimensional Modeling
+1. Facts
+2. Dimensions
+3. Attributes of Dimensions
+4. Star schema (and/or OLAP cubes)
+#### Fact Table and Facts
+1. The rows in a fact table will always have 1:1 relationship between fact table row and real-world event (like transactions)
+2. Most facts should be additive (though some are not)
+3. Fact table will have foreign keys (FK) to dimension tables
+4. Fact table always has a primary key (PK) which is usually a composite key composed of a subset of foreign keys
+#### Dimension Table and Dimensions
+1. Dimension Tables are companions to a fact table.
+2. Dimension table describe all the context associated with a business process measurement event - they answer questions like who, what, where, when, how, why associated with the event.
+3. There is no limit on how many attributes a dimension can have.
+4. Dimension tables usually have less rows than fact tables - but they can become much wider.
+5. A dimension table is defined by a **single** primary key (PK) which is going to be referred in the fact table - PK is the basis for the referential integrity with the fact table. 
+6. Dimension tables are denormalized tables - which is also another reason for having so many attributes. Flattened many-to-one relationships within a single dimension table. 
+#### Attributes
+1. The attributes of a dimension tables are the primary source of query constraints, groups and report labels. 
+2. The quality of attributes $\propto$ quality of the system. 
+3. Attributes should consist of real words rather than cryptic abbreviations and they should consist of descriptive words or expressions instead of codes. 
+#### Star Schema
+1. Simple and symmetric.
+2. Each dimension is an entry point to a fact table. 
+3. Symmetrical structure allows effective handling of complex queries. 
+4. Its highly recognizable by the business users. 
+5. Easily extensible to accommodate change 
+	1. A new dimension table can be added and link this dimension to the related facts table, by making sure that a row in the dimension table can be linked to a row in the facts table. 
+	2. We can add a completely new fact table and link it to the existing dimensions. 
+
+### Four-step Dimensional Design Process
+1. Select the business process to be modeled. Business process is a low-level activity performed by an organization to accomplish a certain goal - like taking phone orders, receiving payments, handling support calls, paying the vendors. 
+2. Declare the granularity of the the model - identify the level of detail. 
+3. Identify the dimensions and dimension attributes. 
+4. Identify the facts - by answering the question what is the process measuring
+Note that these steps do not need to be performed in the exact order. Sometimes we first ask what business problem are we trying to solve or what facts are we trying to find, and go on from there. 
+
+
+
+
