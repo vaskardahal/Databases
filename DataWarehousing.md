@@ -57,7 +57,9 @@ Dimensional Modeling is a database design method optimized for data warehouse so
 	2. We can add a completely new fact table and link it to the existing dimensions. 
 
 [Dimension Table](DimensionTable)
-[Fact Table](FactTable)
+
+[Fact Table](FactTable.md)
+
 
 ### Four-step Dimensional Design Process
 1. Select the business process to be modeled. Business process is a low-level activity performed by an organization to accomplish a certain goal - like taking phone orders, receiving payments, handling support calls, paying the vendors. 

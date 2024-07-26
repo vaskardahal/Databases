@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FactTable.md",
+                "file": "DataWarehousing.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FactTable.md",
+                "file": "DataWarehousing.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FactTable.md",
+                "file": "DataWarehousing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FactTable.md"
+                "file": "DataWarehousing.md"
               }
             }
           }
@@ -156,9 +156,9 @@
   },
   "active": "fb76676da7954ec6",
   "lastOpenFiles": [
+    "FactTable.md",
     "DataWarehousing.md",
     "DimensionTable.md",
-    "FactTable.md",
     "4913",
     "Welcome.md"
   ]
