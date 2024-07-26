@@ -95,7 +95,9 @@ Note that these steps do not need to be performed in the exact order. Sometimes 
 * If the BK is composed of meaningful code, the code should be split and each code stored in separate column (dimension attribute). 
 ### Hierarchies in Dimension Table
 
-
+## Data to work on
+1. Walmart Case Study
+2. 
 
 
 
