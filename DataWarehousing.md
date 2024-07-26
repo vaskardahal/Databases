@@ -45,7 +45,8 @@ Dimensional Modeling is a database design method optimized for data warehouse so
 1. The attributes of a dimension tables are the primary source of query constraints, groups and report labels. 
 2. The quality of attributes $\propto$ quality of the system. 
 3. Attributes should consist of real words rather than cryptic abbreviations and they should consist of descriptive words or expressions instead of codes. 
-4. Also null values in the source should be replaced with meaningful words. 
+4. Also null values in the source should be replaced with meaningful words - like unknown, not applicable, does not exist. 
+5. Flags and indicators ((1 or 0 and True or False)) should be replaced with their more comprehensive textual counterparts - for example, the attribute "IsWeekend" in data source with a value of 0 & 1 can be represented in DW as an attribute "Weekend_Indicator" with a value of "Weekday" or "Weekend". 
 #### Star Schema
 1. Simple and symmetric.
 2. Each dimension is an entry point to a fact table. 
@@ -54,6 +55,9 @@ Dimensional Modeling is a database design method optimized for data warehouse so
 5. Easily extensible to accommodate change 
 	1. A new dimension table can be added and link this dimension to the related facts table, by making sure that a row in the dimension table can be linked to a row in the facts table. 
 	2. We can add a completely new fact table and link it to the existing dimensions. 
+
+[Dimension Table](DimensionTable)
+[Fact Table](FactTable)
 
 ### Four-step Dimensional Design Process
 1. Select the business process to be modeled. Business process is a low-level activity performed by an organization to accomplish a certain goal - like taking phone orders, receiving payments, handling support calls, paying the vendors. 
@@ -87,6 +91,8 @@ Note that these steps do not need to be performed in the exact order. Sometimes 
 * If there are multiple source systems, the business keys can be prefixed (or suffixed) with an identifier of the source so that a user can easily determine what source a particular record came from. 
 * If the same item is represented in more than one data source, and its required to know where the data came from, business key can provide that information. 
 * If the BK is composed of meaningful code, the code should be split and each code stored in separate column (dimension attribute). 
+### Hierarchies in Dimension Table
+
 
 
 
