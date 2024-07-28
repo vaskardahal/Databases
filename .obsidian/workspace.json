@@ -4,35 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "af0889b6fdc432a8",
+        "id": "a4ec9c0bf4903a92",
         "type": "tabs",
-        "dimension": 59.50881612090681,
         "children": [
           {
-            "id": "afd5ef3c5917251e",
+            "id": "69023eaa10006c37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "oltp_olap.md",
+                "file": "FactTable.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "91144f03082b02eb",
-        "type": "tabs",
-        "dimension": 40.4911838790932,
-        "children": [
-          {
-            "id": "740b4b69576d7e6e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "oltp_olap.md",
+                "file": "FactTable.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "oltp_olap.md",
+                "file": "FactTable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,17 +125,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "oltp_olap.md"
+                "file": "FactTable.md"
               }
+            }
+          },
+          {
+            "id": "afd5ef3c5917251e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 797.5,
-    "collapsed": true
+    "width": 562.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,15 +154,15 @@
       "graph:Open graph view": false
     }
   },
-  "active": "afd5ef3c5917251e",
+  "active": "69023eaa10006c37",
   "lastOpenFiles": [
+    "DB_DWH_DL.md",
+    "FactTable.md",
+    "OLTP_OLAP.md",
+    "DimensionTable.md",
+    "DataWarehousing.md",
     "Databases.md",
     "Data_Engineering.md",
-    "FactTable.md",
-    "oltp_olap.md",
-    "DataWarehousing.md",
-    "db_dwh_dl.md",
-    "DimensionTable.md",
     "4913",
     "Welcome.md"
   ]

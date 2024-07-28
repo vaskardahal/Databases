@@ -1,8 +1,8 @@
 # Data Engineering
 
 ## Table of Contents
-* [Databases vs Data WareHouse vs Data Lake](db_dwh_dl.md)
-* [OLTP vs OLAP](oltp_olap.md)
+* [Databases vs Data WareHouse vs Data Lake](DB_DWH_DL.md)
+* [OLTP vs OLAP](OLTP_OLAP.md)
 * [Databases](Databases.md)
 * [Data Warehouse](DataWarehousing.md)
 * 
