@@ -22,5 +22,5 @@
 ### EXCEPT ALL
 
 ## CROSS APPLY
-## Subtotals with ROLLUPs and CUBEs
+## Subtotals with GROUPING SETs, ROLLUPs and CUBEs
 

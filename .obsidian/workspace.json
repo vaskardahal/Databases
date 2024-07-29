@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "SQL_functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "SQL_functions.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "SQL_functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "SQL_functions.md"
               }
             }
           },
@@ -167,14 +167,15 @@
       "graph:Open graph view": false
     }
   },
-  "active": "fcd83bedc5153bbe",
+  "active": "b01d1ad2ea28dabf",
   "lastOpenFiles": [
-    "SQL_queries.md",
     "Databases.md",
-    "SetOperators.md",
+    "SQL_functions.md",
     "README.md",
-    "Sql_intro.md",
     "DataWarehousing.md",
+    "SQL_queries.md",
+    "Sql_intro.md",
+    "SetOperators.md",
     "FactTable.md",
     "DB_DWH_DL.md",
     "OLTP_OLAP.md",
