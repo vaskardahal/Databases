@@ -3,12 +3,12 @@
 
 ### COALESCE()
 * Used to handle NULL value
-```
+	```
 	SELECT COALESE(FirstName, '') + 
 		COALESE(MiddleName, '') + 
 		COALESE(LastName, '') 
 	FROM Person;
-```
+	```
 * Evaluates arguments and always returns the first non-null value
 	```
 	SELECT FirstName, LastName, 
