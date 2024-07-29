@@ -3,6 +3,7 @@
 
 ### COALESCE()
 * Used to handle NULL value
+
 		```
 		SELECT COALESE(FirstName, '') + 
 			COALESE(MiddleName, '') + 
