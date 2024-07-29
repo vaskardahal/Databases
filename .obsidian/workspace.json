@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FactTable.md",
+                "file": "Databases.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b01d1ad2ea28dabf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FactTable.md",
+                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FactTable.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FactTable.md"
+                "file": "README.md"
               }
             }
           },
@@ -154,15 +167,18 @@
       "graph:Open graph view": false
     }
   },
-  "active": "69023eaa10006c37",
+  "active": "fcd83bedc5153bbe",
   "lastOpenFiles": [
-    "DB_DWH_DL.md",
+    "SQL_queries.md",
+    "Databases.md",
+    "SetOperators.md",
+    "README.md",
+    "Sql_intro.md",
+    "DataWarehousing.md",
     "FactTable.md",
+    "DB_DWH_DL.md",
     "OLTP_OLAP.md",
     "DimensionTable.md",
-    "DataWarehousing.md",
-    "Databases.md",
-    "Data_Engineering.md",
     "4913",
     "Welcome.md"
   ]
