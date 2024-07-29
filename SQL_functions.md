@@ -10,6 +10,11 @@
 	FROM Person;
 ```
 * Evaluates arguments and always returns the first non-null value
+	```
+	SELECT FirstName, LastName, 
+		COALESCE(HomePhone, WorkPhone, CellPhone, 'NA') PhoneNumber
+	FROM EmergencyContact;
+	```
 * Replaces null values with user-defined value
 * 
 
