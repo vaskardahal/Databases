@@ -1,4 +1,4 @@
-s# Databases
+# Databases
 
 ## Table of Contents
 
@@ -15,4 +15,3 @@ s# Databases
 * SQL Performance
 	* SQL performance tuning and query optimization using execution plan 
 * Metadata Management & Data Catalog
-* 

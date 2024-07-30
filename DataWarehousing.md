@@ -1,3 +1,8 @@
+
+# Table of Contents
+* Data Warehousing
+* [ETL Systems](ETL_Systems.md)
+
 # Data Warehousing
 ## Background
 ### Problems that Data Warehouse can solve
@@ -72,6 +77,8 @@ Note that these steps do not need to be performed in the exact order. Sometimes 
 There is a **many-to-many** relationship between the the fact and dimension. Examples:
 1. In one sale, there can be multiple products. And one product can be part of many sales. 
 2. Multiple promotions can be applied to a single sale. And obviously, the same promotion can be applied to multiple sales. 
+
+
 
 ## Data to work on
 1. Walmart Case Study
