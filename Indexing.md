@@ -15,9 +15,11 @@ On the backend, the DBMS will create **Data Pages** (which is generally 8KB depe
 
 Schematic representation of a typical Data Page: 
 
+
 ```mermaid
-flowchartR
-	subgraph TOP
-	subgraph MIDDLE
-	subgraph BOTTOM
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
