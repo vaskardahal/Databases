@@ -6,7 +6,7 @@
 	* ACID properties in Databases
 * Database Design
 	* Normalization
-	* Indexing
+	* [Indexing](Indexing.md)
 		* Types - B-Tree Index, Bitmap Index
 * [Structured Query Language (SQL)](Sql_intro.md)
 	* Execution order of SQL Query

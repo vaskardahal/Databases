@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ETL_Systems.md",
+                "file": "Indexing.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ETL_Systems.md",
+                "file": "Indexing.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ETL_Systems.md",
+                "file": "Indexing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ETL_Systems.md"
+                "file": "Indexing.md"
               }
             }
           },
@@ -169,17 +169,18 @@
   },
   "active": "b01d1ad2ea28dabf",
   "lastOpenFiles": [
-    "DataWarehousing.md",
-    "ETL_Systems.md",
     "Databases.md",
+    "Indexing.md",
+    "ETL_Systems.md",
+    "FactTable.md",
+    "OLTP_OLAP.md",
+    "DataWarehousing.md",
     "SQL_functions.md",
     "README.md",
     "SQL_queries.md",
     "Sql_intro.md",
     "SetOperators.md",
-    "FactTable.md",
     "DB_DWH_DL.md",
-    "OLTP_OLAP.md",
     "DimensionTable.md",
     "4913",
     "Welcome.md"
