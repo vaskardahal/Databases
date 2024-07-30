@@ -7,39 +7,37 @@ For the end users of the DWH, the ETL is like a "black box" in which the data fr
 
 ### Types of DWH Loads
 Based on the quantity of data being transferred to the DWH, there are two types of loads: 
-| Full\Initial Load | Load |
-|--------------|--------------|
-| The process of populating the data warehouse for the first time with data from the operational system | And also |
-
 
 <table>
 <tr>
-<th>Argument</th>
-<th>Description</th>
+<th>Full/Initial Load</th>
+<th>Incremental load</th>
 </tr>
 <tr>
-<td>appDir</td>
-<td>The top level directory that contains your app. If this option is used then
-it assumed your scripts are in</td>
+<td>Process of populating the DWH for the first time with data from the operational system</td>
+<td>Process of updating the DWH by only bringing in the changes to the operation system</td>
 </tr>
 <tr>
-<td>baseUrl</td>
-<td>By default, all modules are located relative to this path. If baseUrl is not
-explicitly set, then all modules are loaded relative to the directory that holds
-the build file. If appDir is set, then baseUrl should be specified as relative
-to the appDir.</td>
+<td>All fact and dimension table are truncated and reloaded</td>
+<td> Fact and dimension table are never truncated, just updated with new info</td>
 </tr>
 <tr>
-<td>dir</td>
-<td>The directory path to save the output. If not specified, then the path will
-default to be a directory called "build" as a sibling to the build file. All
-relative paths are relative to the build file.</td>
+<td>Old data is lost</td>
+<td>Existing/Old data is preserved</td>
 </tr>
 <tr>
-<td>modules</td>
-<td>List the modules that will be optimized. All their immediate and deep
-dependencies will be included in the module's file when the build is done. If
-that module or any of its dependencies includes i18n bundles, only the root
-bundles will be included unless the locale: section is set above.</td>
+<td>Takes a lot of time to execute and complete</td>
+<td>Loading incrementally takes less time than a full load</td>
+</tr>
+<tr>
+<td>Easy to implement since no history is preserved in the DWH</td>
+<td>
+	Technical implementation, however, is more complex because: 
+	<ul>
+		<li> Need to keep track of previous load date </li>
+		<li> Find a way to store multiple versions of the same source row in the dimension table to keep track of updates <li>
+	</ul>
+</td>
 </tr>
 </table>
+
