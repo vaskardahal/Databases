@@ -2,4 +2,4 @@
 # SQL Performance
 
 
-![SQL Data Page](SQLPerf.drawio.svg)
+![SQL Data Page](./SQLPerf.drawio.svg)
