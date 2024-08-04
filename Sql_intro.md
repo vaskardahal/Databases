@@ -23,71 +23,45 @@ LIMIT       10;
 8. LIMIT & OFFSET - 
 
 ```mermaid
-flowchart TD
-
-subgraph one["JOIN TABLES"]
-
-direction LR
-
-A["FROM Customers"] -->
-
-B["JOIN Orders <br> ON Customer.id = Orders.customer_id"]
-
-end
-
-subgraph two["FILTER"]
-
-C["WHERE <br> Orders.order_date > '2024-01-01'"]
-
-end
-
-subgraph three["AGGREGATION & AGGREGATION FILTER"]
-
-D["GROUP BY <br> Orders.customer_id"] -->
-
-E["HAVING <br> total_spent > 100"]
-
-end
-
-subgraph four["SELECT COLUMNS"]
-
-F["SELECT
-
-customer_id
-
-COUNT(order_id) as total_orders
-
-SUM(order_amount) as total_spent"
-
-]
-
-end
-
-subgraph five["ORDER BY"]
-
-G["ORDER BY"]
-
-end
-
-subgraph six["LIMIT & OFFSET"]
-
-H["LIMIT"]
-
-end
-
-  
-  
-
-one --> two
-
-two --> three
-
-three --> four
-
-four --> five
-
-five --> six
-
+	flowchart TD
+		subgraph one["JOIN TABLES"]
+			direction LR
+			A["FROM Customers"] -->
+			B["JOIN Orders <br> ON Customer.id = Orders.customer_id"]
+		end
+	
+		subgraph two["FILTER"]
+			C["WHERE <br> Orders.order_date > '2024-01-01'"]
+		end
+	
+		subgraph three["AGGREGATION AND AGGREGATION FILTER"]
+			direction LR
+			D["GROUP BY <br> Orders.customer_id"] -->
+			E["HAVING <br> total_spent > 100"]
+		end
+	
+		subgraph four["SELECT COLUMNS"]
+			F["SELECT
+				customer_id
+				COUNT(order_id) as total_orders
+				SUM(order_amount) as total_spent"]
+		end
+	
+		subgraph five["ORDER BY"]
+			G["ORDER BY"]	
+		end
+			
+		subgraph six["LIMIT AND OFFSET"]
+			direction LR
+			H["LIMIT"] --> 
+			I["OFFSET"]
+		end
+	
+	one --> two
+	two --> three
+	three --> four
+	four --> five
+	five --> six
 ```
 
 ### SARGABLE Queries
