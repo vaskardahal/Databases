@@ -4,45 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1d442259accabd84",
-        "type": "split",
+        "id": "46f167ebf458a21d",
+        "type": "tabs",
         "children": [
           {
-            "id": "46f167ebf458a21d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1b1d78de0905c553",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "SQL_perf.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "1b1d78de0905c553",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL_perf.md",
+                "mode": "source",
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "17e7deed9c633864",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "8798ebe07d658127",
-                "type": "leaf",
-                "state": {
-                  "type": "diagram",
-                  "state": {
-                    "file": "SQLPerf.drawio.svg"
-                  }
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
