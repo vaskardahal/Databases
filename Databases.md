@@ -12,6 +12,6 @@
 	* Execution order of SQL Query
 * [SQL Queries](SQL_queries.md)
 * [SQL Functions](SQL_functions.md)
-* SQL Performance
+* [SQL Performance](SQL_perf.md)
 	* SQL performance tuning and query optimization using execution plan 
 * Metadata Management & Data Catalog

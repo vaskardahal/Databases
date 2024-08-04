@@ -4,35 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "a4ec9c0bf4903a92",
-        "type": "tabs",
+        "id": "1d442259accabd84",
+        "type": "split",
         "children": [
           {
-            "id": "69023eaa10006c37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases.md",
-                "mode": "source",
-                "source": false
+            "id": "46f167ebf458a21d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1b1d78de0905c553",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "SQL_perf.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ]
           },
           {
-            "id": "b01d1ad2ea28dabf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sql_intro.md",
-                "mode": "source",
-                "source": false
+            "id": "17e7deed9c633864",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8798ebe07d658127",
+                "type": "leaf",
+                "state": {
+                  "type": "diagram",
+                  "state": {
+                    "file": "SQLPerf.drawio.svg"
+                  }
+                }
               }
-            }
+            ]
           }
         ],
-        "currentTab": 1
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -45,16 +55,6 @@
         "id": "19a2b1b42afbfb2f",
         "type": "tabs",
         "children": [
-          {
-            "id": "fcd83bedc5153bbe",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
           {
             "id": "9bc223bbe2359481",
             "type": "leaf",
@@ -77,8 +77,19 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "8f6d880dfd455288",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -98,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sql_intro.md",
+                "file": "SQL_perf.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sql_intro.md",
+                "file": "SQL_perf.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sql_intro.md"
+                "file": "SQL_perf.md"
               }
             }
           },
@@ -149,8 +160,17 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "c8b0cd15a718e211",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -163,21 +183,29 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "graph:Open graph view": false
+      "graph:Open graph view": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b01d1ad2ea28dabf",
+  "active": "1b1d78de0905c553",
   "lastOpenFiles": [
+    "SQLStorage.md",
+    "SQL_perf.md",
+    "Untitled Diagram.svg",
+    "SQLPerf.drawio.svg",
     "SQL_queries.md",
-    "README.md",
+    "SQLPerf.md",
+    "Untitled Diagram 1.svg",
+    "Untitled.canvas",
     "Databases.md",
+    "Sql_intro.md",
+    "README.md",
     "Indexing.md",
     "ETL_Systems.md",
     "FactTable.md",
     "OLTP_OLAP.md",
     "DataWarehousing.md",
     "SQL_functions.md",
-    "Sql_intro.md",
     "SetOperators.md",
     "DB_DWH_DL.md",
     "DimensionTable.md",
