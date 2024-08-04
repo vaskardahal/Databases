@@ -6,3 +6,4 @@
 
 <img src=".\SQLPerf.drawio.svg">
 
+![SQL Data Page](SQLPerf.drawio.svg)
