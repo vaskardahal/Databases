@@ -22,6 +22,16 @@ LIMIT       10;
 7. ORDER BY - Use appropriate indexes to speed up sorting process
 8. LIMIT & OFFSET - 
 
+```blockdiag
+blockdiag {
+  Kroki -> generates -> "Block diagrams";
+  Kroki -> is -> "very easy!";
+
+  Kroki [color = "greenyellow"];
+  "Block diagrams" [color = "pink"];
+  "very easy!" [color = "orange"];
+}
+```
 
 ### SARGABLE Queries
 

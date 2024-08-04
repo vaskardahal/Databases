@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Indexing.md",
+                "file": "Sql_intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,13 +98,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Indexing.md",
+                "file": "Sql_intro.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Indexing.md",
+                "file": "Sql_intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Indexing.md"
+                "file": "Sql_intro.md"
               }
             }
           },
@@ -150,8 +150,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -169,6 +168,8 @@
   },
   "active": "b01d1ad2ea28dabf",
   "lastOpenFiles": [
+    "SQL_queries.md",
+    "README.md",
     "Databases.md",
     "Indexing.md",
     "ETL_Systems.md",
@@ -176,8 +177,6 @@
     "OLTP_OLAP.md",
     "DataWarehousing.md",
     "SQL_functions.md",
-    "README.md",
-    "SQL_queries.md",
     "Sql_intro.md",
     "SetOperators.md",
     "DB_DWH_DL.md",
